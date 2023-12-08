@@ -1,5 +1,6 @@
 # NYC Taxi Data Analytics
 
+![Project Diagram](https://github.com/Pharoah0/NYC-Taxi-Data-Analytics-With-Apach-Spark/blob/main/images/NYC_Taxi.pdf)
 Author: Pharoah Evelyn
 
 ## Overview
