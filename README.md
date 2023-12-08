@@ -14,7 +14,7 @@ We need to analyze which zip codes in NYC have the most taxi traffic to understa
 
 ## Data Preparation
 
-I gathered the data from the [NYC Taxi & Limousine Commission's website] (https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page), based on August 2023. The data is already in parquet format.
+I gathered the data from the [NYC Taxi & Limousine Commission's website](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page), based on August 2023. The data is already in parquet format.
 Furthermore, I downloaded shape files to extract geospatial coordinates onto our dataset.
 
 ## Methods Used
