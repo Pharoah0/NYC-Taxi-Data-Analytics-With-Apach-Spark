@@ -36,4 +36,6 @@ Within Redshift, I also created a new table by joining dimensions from all avail
 
 We could improve this project by web-scraping the NYC TLC website, gathering data from each month from every year, and creating a massive analysis of all historical data available.
 
+One could also employ this architecture within the cloud 100% by utilizing a Spark environment with the use of Amazon EMR and having the ability to transfer the files via EMRFS.
+
 ## Conclusions
