@@ -3,7 +3,7 @@
 Author: Pharoah Evelyn
 
 <p align="center">
-    <img src="https://github.com/Pharoah0/NYC-Taxi-Data-Analytics-With-Apach-Spark/blob/main/images/NYC_Taxi.png" />
+    <img src="https://github.com/Pharoah0/NYC-Taxi-Data-Analytics-With-Apach-Spark/blob/main/images/NYC_Taxi_diagram.png" />
 </p>
 
 ## Overview
