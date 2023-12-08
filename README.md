@@ -36,6 +36,20 @@ Within Redshift, I also created a new table by joining dimensions from all avail
 
 We could improve this project by web-scraping the NYC TLC website, gathering data from each month from every year, and creating a massive analysis of all historical data available.
 
-One could also employ this architecture within the cloud 100% by utilizing a Spark environment with the use of Amazon EMR and having the ability to transfer the files via EMRFS.
+One could also employ this architecture within the cloud 100%:
+
+Example 1:
+Deploy in AWS by utilizing a Spark environment with the use of Amazon EMR and having the ability to transfer the files via EMRFS.
+
+<p align="center">
+    <img src="https://github.com/Pharoah0/NYC-Taxi-Data-Analytics-With-Apach-Spark/blob/main/images/NYC_Taxi_Cloud_V1.png" />
+</p>
+
+Example 2:
+Alternatively, we could use a Glue Notebook in the place of an EMR - with the use of automatic triggers with an additional Lambda function. Though, we'd need different schemas for each table so the Glue Crawler can read each schema properly.
+
+<p align="center">
+    <img src="https://github.com/Pharoah0/NYC-Taxi-Data-Analytics-With-Apach-Spark/blob/main/images/NYC_Taxi_Cloud_V2.png" />
+</p>
 
 ## Conclusions
