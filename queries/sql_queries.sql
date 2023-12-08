@@ -63,7 +63,15 @@ Join payment_type_dim pay On pay.payment_type_id = f.payment_type_id)
 
 -- Unloading Data to S3
 UNLOAD ('Select * From tbl_analytics')
-To 's3://nyc-taxi-project-bucket/tables/tbl_analytics'
-iam_role 'arn:aws:iam::406465777358:role/Redshift_to_S3'
+To 'My_S3_ARN'
+iam_role 'My_IAM_Role_ARN'
 Format as PARQUET
-Parallel Off;
+parallel off
+Maxfilesize as 100 MB;
+
+UNLOAD ('Select * From fact_table')
+To 'My_S3_ARN'
+iam_role 'My_IAM_Role_ARN'
+Format as PARQUET
+parallel off
+Maxfilesize as 100 MB;
