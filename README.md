@@ -32,6 +32,10 @@ Within Redshift, I also created a new table by joining dimensions from all avail
 
 ## Discoveries made
 
+I discovered the similarities and differences that Apache Spark has with Pandas. Due to Spark's use of distributed computing, one has to consider the best methods of transforming data since operations can be computationally expensive within Spark.
+
+For example, a broadcast join instead of a regular join would be the preferred method for joining large & small tables together. The broadcast join will shuffle smaller datasets among available nodes, avoiding the need to shuffle data, which will cause slower processing.
+
 ## Ways to improve this project
 
 We could improve this project by web-scraping the NYC TLC website, gathering data from each month from every year, and creating a massive analysis of all historical data available.
@@ -51,5 +55,3 @@ Alternatively, we could use a Glue Notebook in the place of an EMR - with the us
 <p align="center">
     <img src="https://github.com/Pharoah0/NYC-Taxi-Data-Analytics-With-Apach-Spark/blob/main/images/NYC_Taxi_Cloud_V2.png" />
 </p>
-
-## Conclusions
