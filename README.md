@@ -42,7 +42,7 @@ PDF Courtesy of Amazon Quicksight
 
 [embed]https://github.com/Pharoah0/NYC-Taxi-Data-Analytics-With-Apach-Spark/blob/main/images/Sheet_1_2023-12-28T18_09_41.pdf[/embed]
 
-<iframe src="images/Sheet_1_2023-12-28T18_09_41.pdf" width="100%" height="500" frameborder="0" />
+<iframe src="Sheet_1_2023-12-28T18_09_41.pdf" width="100%" height="500" frameborder="0" />
 
 ## Ways to improve this project
 
