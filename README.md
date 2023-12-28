@@ -43,6 +43,7 @@ Courtesy of Amazon Quicksight
 <p align="center">
     <img src="https://github.com/Pharoah0/NYC-Taxi-Data-Analytics-With-Apach-Spark/blob/main/images/Sheet_1_2023-12-28T18_09_41.png" />
 </p>
+
 ## Ways to improve this project
 
 We could improve this project by web-scraping the NYC TLC website, gathering data from each month from every year, and creating a massive analysis of all historical data available.
