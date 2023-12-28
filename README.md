@@ -38,12 +38,11 @@ For example, a broadcast join instead of a regular join would be the preferred m
 
 ## Data Visualization
 
-PDF Courtesy of Amazon Quicksight
+Courtesy of Amazon Quicksight
 
-[embed]https://github.com/Pharoah0/NYC-Taxi-Data-Analytics-With-Apach-Spark/blob/main/images/Sheet_1_2023-12-28T18_09_41.pdf[/embed]
-
-<iframe src="Sheet_1_2023-12-28T18_09_41.pdf" width="100%" height="500" frameborder="0" />
-
+<p align="center">
+    <img src="https://github.com/Pharoah0/NYC-Taxi-Data-Analytics-With-Apach-Spark/blob/main/images/Sheet_1_2023-12-28T18_09_41.png" />
+</p>
 ## Ways to improve this project
 
 We could improve this project by web-scraping the NYC TLC website, gathering data from each month from every year, and creating a massive analysis of all historical data available.
