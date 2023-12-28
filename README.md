@@ -36,6 +36,14 @@ I discovered the similarities and differences that Apache Spark has with Pandas.
 
 For example, a broadcast join instead of a regular join would be the preferred method for joining large & small tables together. The broadcast join will shuffle smaller datasets among available nodes, avoiding the need to shuffle data, which will cause slower processing.
 
+## Data Visualization
+
+PDF Courtesy of Amazon Quicksight
+
+<p align="center">
+    <img src="https://github.com/Pharoah0/NYC-Taxi-Data-Analytics-With-Apach-Spark/blob/main/images/Sheet_1_2023-12-28T18_09_41.pdf" />
+</p>
+
 ## Ways to improve this project
 
 We could improve this project by web-scraping the NYC TLC website, gathering data from each month from every year, and creating a massive analysis of all historical data available.
